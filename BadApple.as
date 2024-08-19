@@ -14,10 +14,6 @@
 // r14  draw_pixel
 // r15  buffer_screen
 
-
-define pixel_x_port -8
-define pixel_y_port -7
-
 ldi r15 clear_chars_buffer
 str r15 r0
 
