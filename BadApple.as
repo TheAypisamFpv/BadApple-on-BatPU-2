@@ -38,6 +38,8 @@ ldi r14 "L"
 str r15 r14
 ldi r14 "E"
 str r15 r14
+ldi r14 " "
+str r15 r14
 
 // Push character buffer
 ldi r15 buffer_chars
