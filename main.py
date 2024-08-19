@@ -1,6 +1,6 @@
 import VideoEncoder, VideoCompresion, CompressedVideoToAs
 
-skip_frame = 2
+skip_frame = 4
 
 def main():
     VideoEncoder.main(skip_frame)

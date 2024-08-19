@@ -73,9 +73,10 @@ def main(skip_frame:int):
         for line in file:
             if line.strip() != "":
                 instructions = generate_asm_instructions(parse_coordinates(line))
-                as_instructions.append(f"\n// frame {frame} - {len(instructions)} instructions")
-                as_instructions.extend(instructions)
-                as_instructions.append("cal .frame_inc")
+                if len(instructions) > 0:
+                    as_instructions.append(f"\n// frame {frame} - {len(instructions)} instructions")
+                    as_instructions.extend(instructions)
+                    as_instructions.append("cal .frame_inc")
                 
             frame += skip_frame
 
