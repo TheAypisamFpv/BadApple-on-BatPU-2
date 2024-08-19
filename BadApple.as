@@ -57,108 +57,104 @@ ldi r15 buffer_screen
 
 ldi r7 2
 
-// frame 19
+// frame 19 - 18 instructions
 ldi r1 22
 ldi r2 17
 cal .push_to_screen_buffer
 ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 22
 ldi r2 15
 cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 22
 ldi r2 14
 cal .push_to_screen_buffer
 ldi r1 23
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
 cal .push_to_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 21
-ldi r1 20
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 20
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 20
-ldi r2 18
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 20
-ldi r2 17
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 23
-cal .push_to_screen_buffer
-ldi r1 20
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
+// frame 21 - 59 instructions
 ldi r1 19
 ldi r2 15
 cal .push_to_screen_buffer
 ldi r1 20
+ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 21
+ldi r2 19
 cal .push_to_screen_buffer
-ldi r1 20
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
 ldi r2 14
 cal .push_to_screen_buffer
 ldi r1 21
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
 cal .push_to_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 21
 ldi r2 12
 cal .push_to_screen_buffer
 ldi r1 22
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
 cal .push_to_screen_buffer
 ldi r1 23
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 23
-ldi r1 19
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 18
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r1 19
-cal .push_to_screen_buffer
+// frame 23 - 28 instructions
 ldi r1 17
 ldi r2 18
 cal .push_to_screen_buffer
 ldi r1 18
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
 cal .push_to_screen_buffer
 ldi r1 19
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
 cal .push_to_screen_buffer
 ldi r2 17
 cal .push_to_screen_buffer
@@ -175,22 +171,22 @@ ldi r2 12
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 25
-ldi r1 19
-ldi r2 20
-cal .clear_from_screen_buffer
-ldi r1 18
-ldi r2 19
-cal .clear_from_screen_buffer
+// frame 25 - 39 instructions
+ldi r1 8
+ldi r2 17
+cal .push_to_screen_buffer
 ldi r1 17
 ldi r2 18
 cal .clear_from_screen_buffer
 ldi r1 18
+ldi r2 19
 cal .clear_from_screen_buffer
-ldi r1 8
-ldi r2 17
-cal .push_to_screen_buffer
+ldi r2 18
+cal .clear_from_screen_buffer
 ldi r1 19
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r2 17
 cal .clear_from_screen_buffer
 ldi r2 16
 cal .clear_from_screen_buffer
@@ -200,17 +196,16 @@ ldi r1 21
 cal .clear_from_screen_buffer
 ldi r2 15
 cal .clear_from_screen_buffer
-ldi r1 22
-cal .clear_from_screen_buffer
-ldi r1 21
 ldi r2 14
 cal .clear_from_screen_buffer
-ldi r1 22
-cal .clear_from_screen_buffer
-ldi r1 21
 ldi r2 13
 cal .clear_from_screen_buffer
 ldi r1 22
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r2 14
+cal .clear_from_screen_buffer
+ldi r2 13
 cal .clear_from_screen_buffer
 ldi r2 12
 cal .clear_from_screen_buffer
@@ -218,187 +213,184 @@ ldi r1 23
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 27
+// frame 27 - 42 instructions
 ldi r1 8
 ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 9
-cal .push_to_screen_buffer
-ldi r1 10
-cal .push_to_screen_buffer
-ldi r1 20
-cal .clear_from_screen_buffer
-ldi r1 8
 ldi r2 19
 cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
 ldi r1 9
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r1 10
+ldi r2 20
 cal .push_to_screen_buffer
 ldi r1 19
+ldi r2 19
+cal .clear_from_screen_buffer
+ldi r2 18
 cal .clear_from_screen_buffer
 ldi r1 20
+ldi r2 20
 cal .clear_from_screen_buffer
-ldi r1 8
-ldi r2 18
-cal .push_to_screen_buffer
-ldi r1 9
-cal .push_to_screen_buffer
-ldi r1 19
+ldi r2 19
 cal .clear_from_screen_buffer
-ldi r1 9
-ldi r2 17
-cal .push_to_screen_buffer
-ldi r1 8
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 9
-cal .push_to_screen_buffer
-ldi r1 8
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r1 9
-cal .push_to_screen_buffer
 ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 8
-ldi r2 14
+ldi r2 15
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 29
-ldi r1 11
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 21
-cal .clear_from_screen_buffer
-ldi r1 10
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 10
-ldi r2 18
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 13
-cal .push_to_screen_buffer
-ldi r1 20
-cal .clear_from_screen_buffer
-ldi r1 10
-ldi r2 17
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 20
-cal .clear_from_screen_buffer
-ldi r1 10
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 10
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 9
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 10
-cal .push_to_screen_buffer
+// frame 29 - 51 instructions
 ldi r1 8
 ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 9
-cal .push_to_screen_buffer
-ldi r1 23
-cal .clear_from_screen_buffer
-ldi r1 8
 ldi r2 12
 cal .push_to_screen_buffer
-cal .frame_inc
-
-// frame 31
-ldi r1 12
-ldi r2 20
+ldi r1 9
+ldi r2 14
 cal .push_to_screen_buffer
-ldi r1 21
+ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 12
+ldi r1 10
 ldi r2 19
 cal .push_to_screen_buffer
 ldi r2 18
 cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r1 11
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
 ldi r1 13
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r1 20
+cal .clear_from_screen_buffer
+ldi r2 17
+cal .clear_from_screen_buffer
+ldi r1 21
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r1 23
+ldi r2 13
+cal .clear_from_screen_buffer
+cal .frame_inc
+
+// frame 31 - 39 instructions
+ldi r1 9
+ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 10
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 11
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r1 12
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r1 13
+ldi r2 18
 cal .clear_from_screen_buffer
 ldi r1 14
 cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 17
+ldi r1 21
+ldi r2 20
 cal .push_to_screen_buffer
 ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 21
 cal .clear_from_screen_buffer
-ldi r1 12
-ldi r2 15
-cal .push_to_screen_buffer
 ldi r1 22
+ldi r2 15
 cal .clear_from_screen_buffer
-ldi r1 11
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 10
-ldi r2 13
-cal .push_to_screen_buffer
-ldi r1 11
-cal .push_to_screen_buffer
-ldi r1 9
-ldi r2 12
-cal .push_to_screen_buffer
-ldi r1 10
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 33
+// frame 33 - 33 instructions
+ldi r1 11
+ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 12
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
 ldi r1 13
 ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 21
-cal .clear_from_screen_buffer
-ldi r1 13
 ldi r2 19
 cal .push_to_screen_buffer
 ldi r2 18
 cal .push_to_screen_buffer
-ldi r1 14
-cal .clear_from_screen_buffer
-ldi r1 13
 ldi r2 17
 cal .push_to_screen_buffer
 ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 22
-cal .clear_from_screen_buffer
-ldi r1 13
 ldi r2 15
 cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 23
+ldi r1 14
+ldi r2 18
 cal .clear_from_screen_buffer
-ldi r1 12
-ldi r2 13
-cal .push_to_screen_buffer
-ldi r1 11
-ldi r2 12
-cal .push_to_screen_buffer
+ldi r1 21
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r1 22
+ldi r2 16
+cal .clear_from_screen_buffer
+ldi r1 23
+ldi r2 14
+cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 35
+// frame 35 - 19 instructions
 ldi r1 14
 ldi r2 18
 cal .push_to_screen_buffer
@@ -409,166 +401,163 @@ ldi r2 16
 cal .push_to_screen_buffer
 ldi r2 15
 cal .push_to_screen_buffer
-ldi r1 23
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 22
 ldi r2 13
 cal .push_to_screen_buffer
 ldi r1 23
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r2 13
 cal .push_to_screen_buffer
 ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 37
-ldi r1 20
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 20
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r2 18
-cal .push_to_screen_buffer
+// frame 37 - 43 instructions
+ldi r1 12
+ldi r2 13
+cal .clear_from_screen_buffer
+ldi r1 13
+ldi r2 16
+cal .clear_from_screen_buffer
+ldi r2 15
+cal .clear_from_screen_buffer
 ldi r1 14
 ldi r2 17
 cal .clear_from_screen_buffer
-ldi r1 20
+ldi r1 18
+ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 13
+ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 20
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
 ldi r2 16
-cal .clear_from_screen_buffer
-ldi r1 20
 cal .push_to_screen_buffer
 ldi r1 21
+ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 13
+ldi r2 16
+cal .push_to_screen_buffer
 ldi r2 15
-cal .clear_from_screen_buffer
-ldi r1 21
 cal .push_to_screen_buffer
 ldi r2 14
 cal .push_to_screen_buffer
-ldi r1 22
-cal .push_to_screen_buffer
-ldi r1 12
 ldi r2 13
-cal .clear_from_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
-ldi r1 21
-cal .push_to_screen_buffer
-ldi r1 18
-ldi r2 12
 cal .push_to_screen_buffer
 ldi r1 22
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 39
+// frame 39 - 32 instructions
+ldi r1 11
+ldi r2 12
+cal .clear_from_screen_buffer
+ldi r1 12
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r2 14
+cal .clear_from_screen_buffer
 ldi r1 13
 ldi r2 20
 cal .clear_from_screen_buffer
-ldi r1 19
-ldi r2 19
-cal .push_to_screen_buffer
 ldi r1 14
 ldi r2 18
 cal .clear_from_screen_buffer
-ldi r1 19
-cal .push_to_screen_buffer
-ldi r2 17
-cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 15
-cal .clear_from_screen_buffer
-ldi r1 20
-cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 14
-cal .clear_from_screen_buffer
 ldi r1 18
 ldi r2 13
 cal .clear_from_screen_buffer
-ldi r1 11
 ldi r2 12
 cal .clear_from_screen_buffer
-ldi r1 18
-cal .clear_from_screen_buffer
+ldi r1 19
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r1 20
+ldi r2 15
+cal .push_to_screen_buffer
 ldi r1 21
+ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 41
-ldi r1 19
-ldi r2 20
-cal .push_to_screen_buffer
+// frame 41 - 27 instructions
+ldi r1 11
+ldi r2 13
+cal .clear_from_screen_buffer
 ldi r1 13
 ldi r2 19
 cal .clear_from_screen_buffer
 ldi r2 18
 cal .clear_from_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
-ldi r1 13
 ldi r2 17
 cal .clear_from_screen_buffer
 ldi r1 18
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r2 17
 cal .push_to_screen_buffer
 ldi r1 19
+ldi r2 20
+cal .push_to_screen_buffer
 ldi r2 16
 cal .push_to_screen_buffer
 ldi r1 20
 ldi r2 14
 cal .push_to_screen_buffer
-ldi r1 11
 ldi r2 13
-cal .clear_from_screen_buffer
-ldi r1 20
 cal .push_to_screen_buffer
 ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 43
-ldi r1 18
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 19
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r2 14
-cal .push_to_screen_buffer
+// frame 43 - 13 instructions
 ldi r1 10
 ldi r2 12
 cal .clear_from_screen_buffer
+ldi r1 18
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r1 19
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 45
-ldi r1 18
-ldi r2 20
-cal .push_to_screen_buffer
+// frame 45 - 23 instructions
+ldi r1 11
+ldi r2 14
+cal .clear_from_screen_buffer
 ldi r1 12
 ldi r2 19
+cal .clear_from_screen_buffer
+ldi r2 16
 cal .clear_from_screen_buffer
 ldi r1 17
 ldi r2 18
 cal .push_to_screen_buffer
 ldi r2 17
 cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 16
-cal .clear_from_screen_buffer
 ldi r1 18
+ldi r2 20
+cal .push_to_screen_buffer
 ldi r2 15
 cal .push_to_screen_buffer
-ldi r1 11
-ldi r2 14
-cal .clear_from_screen_buffer
 ldi r1 19
 ldi r2 13
 cal .push_to_screen_buffer
@@ -576,7 +565,10 @@ ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 47
+// frame 47 - 14 instructions
+ldi r1 11
+ldi r2 14
+cal .push_to_screen_buffer
 ldi r1 12
 ldi r2 20
 cal .clear_from_screen_buffer
@@ -585,133 +577,133 @@ ldi r2 19
 cal .push_to_screen_buffer
 ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 11
-ldi r2 14
-cal .push_to_screen_buffer
 ldi r1 18
+ldi r2 14
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 49
-ldi r1 12
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 11
-ldi r2 13
-cal .push_to_screen_buffer
+// frame 49 - 11 instructions
 ldi r1 10
 ldi r2 12
 cal .push_to_screen_buffer
-cal .frame_inc
-
-// frame 51
-ldi r1 12
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 13
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r1 17
-cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 18
-cal .push_to_screen_buffer
-ldi r1 17
-ldi r2 17
-cal .clear_from_screen_buffer
-ldi r2 16
-cal .clear_from_screen_buffer
-ldi r1 12
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r1 14
-cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 14
-cal .push_to_screen_buffer
-ldi r1 18
-cal .clear_from_screen_buffer
-ldi r1 14
+ldi r1 11
 ldi r2 13
 cal .push_to_screen_buffer
+ldi r1 12
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
+cal .frame_inc
+
+// frame 51 - 32 instructions
 ldi r1 11
 ldi r2 12
 cal .push_to_screen_buffer
+ldi r1 12
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r1 13
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 18
+cal .push_to_screen_buffer
+ldi r1 14
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r1 17
+ldi r2 19
+cal .clear_from_screen_buffer
+ldi r2 17
+cal .clear_from_screen_buffer
+ldi r2 16
+cal .clear_from_screen_buffer
+ldi r1 18
+ldi r2 14
+cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 53
+// frame 53 - 30 instructions
+ldi r1 12
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 13
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r1 14
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r2 14
+cal .clear_from_screen_buffer
+ldi r2 13
+cal .clear_from_screen_buffer
 ldi r1 17
 ldi r2 18
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 17
-cal .push_to_screen_buffer
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r1 14
-cal .clear_from_screen_buffer
 ldi r1 18
+ldi r2 15
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 14
-cal .push_to_screen_buffer
-ldi r1 14
-cal .clear_from_screen_buffer
-ldi r1 12
+ldi r1 19
 ldi r2 13
-cal .push_to_screen_buffer
-ldi r1 14
 cal .clear_from_screen_buffer
-ldi r1 19
-cal .clear_from_screen_buffer
-ldi r1 12
 ldi r2 12
-cal .push_to_screen_buffer
-ldi r1 19
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 55
+// frame 55 - 24 instructions
 ldi r1 13
 ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 18
+ldi r2 16
+cal .push_to_screen_buffer
+ldi r2 15
 cal .clear_from_screen_buffer
+ldi r2 14
+cal .clear_from_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
+cal .push_to_screen_buffer
 ldi r1 14
 ldi r2 18
 cal .push_to_screen_buffer
 ldi r2 17
 cal .push_to_screen_buffer
-ldi r1 13
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r2 15
-cal .clear_from_screen_buffer
-ldi r2 14
+ldi r1 18
+ldi r2 20
 cal .clear_from_screen_buffer
 ldi r1 19
+ldi r2 14
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 13
-cal .push_to_screen_buffer
-ldi r2 12
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 57
+// frame 57 - 6 instructions
+ldi r1 13
+ldi r2 15
+cal .push_to_screen_buffer
 ldi r1 18
 ldi r2 16
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 15
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 59
+// frame 59 - 10 instructions
+ldi r1 13
+ldi r2 14
+cal .push_to_screen_buffer
 ldi r1 14
 ldi r2 19
 cal .push_to_screen_buffer
@@ -719,16 +711,14 @@ ldi r1 18
 cal .clear_from_screen_buffer
 ldi r2 17
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 14
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 61
+// frame 61 - 16 instructions
+ldi r1 13
+ldi r2 13
+cal .clear_from_screen_buffer
 ldi r1 14
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 16
+ldi r2 16
 cal .push_to_screen_buffer
 ldi r1 15
 ldi r2 17
@@ -736,57 +726,57 @@ cal .push_to_screen_buffer
 ldi r1 18
 cal .push_to_screen_buffer
 ldi r1 14
-ldi r2 16
+ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 13
-ldi r2 13
-cal .clear_from_screen_buffer
+ldi r1 16
+cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 63
+// frame 63 - 33 instructions
+ldi r1 13
+ldi r2 14
+cal .clear_from_screen_buffer
 ldi r1 14
 ldi r2 20
 cal .clear_from_screen_buffer
-ldi r1 16
-cal .clear_from_screen_buffer
-ldi r1 14
 ldi r2 19
 cal .clear_from_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
+ldi r2 16
+cal .clear_from_screen_buffer
 ldi r1 15
 ldi r2 17
 cal .clear_from_screen_buffer
-ldi r1 14
-ldi r2 16
+ldi r1 16
+ldi r2 20
 cal .clear_from_screen_buffer
 ldi r1 17
+ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
-ldi r1 17
 ldi r2 15
 cal .push_to_screen_buffer
-ldi r1 13
 ldi r2 14
-cal .clear_from_screen_buffer
-ldi r1 17
-cal .push_to_screen_buffer
-ldi r1 19
 cal .push_to_screen_buffer
 ldi r1 18
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
 ldi r2 12
+cal .push_to_screen_buffer
+ldi r1 19
+ldi r2 14
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 65
-ldi r1 16
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
+// frame 65 - 28 instructions
+ldi r1 13
+ldi r2 12
+cal .clear_from_screen_buffer
 ldi r1 14
 ldi r2 19
+cal .push_to_screen_buffer
+ldi r1 16
+ldi r2 20
 cal .push_to_screen_buffer
 ldi r1 17
 ldi r2 16
@@ -797,62 +787,68 @@ ldi r2 14
 cal .clear_from_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 19
+ldi r1 18
+ldi r2 20
 cal .push_to_screen_buffer
-ldi r1 13
 ldi r2 12
 cal .clear_from_screen_buffer
-ldi r1 18
-cal .clear_from_screen_buffer
 ldi r1 19
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 67
-ldi r1 15
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 17
-cal .push_to_screen_buffer
+// frame 67 - 22 instructions
+ldi r1 13
+ldi r2 15
+cal .clear_from_screen_buffer
 ldi r1 14
 ldi r2 19
 cal .clear_from_screen_buffer
 ldi r2 18
 cal .clear_from_screen_buffer
+ldi r1 15
+ldi r2 20
+cal .push_to_screen_buffer
 ldi r1 17
+cal .push_to_screen_buffer
+ldi r2 18
 cal .push_to_screen_buffer
 ldi r2 17
 cal .push_to_screen_buffer
-ldi r1 13
-ldi r2 15
-cal .clear_from_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
-ldi r1 17
 ldi r2 13
 cal .clear_from_screen_buffer
+ldi r1 18
+ldi r2 15
+cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 69
-ldi r1 14
-ldi r2 17
+// frame 69 - 16 instructions
+ldi r1 12
+ldi r2 12
 cal .clear_from_screen_buffer
 ldi r1 13
 ldi r2 16
+cal .clear_from_screen_buffer
+ldi r1 14
+ldi r2 17
 cal .clear_from_screen_buffer
 ldi r1 18
 ldi r2 14
 cal .push_to_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 12
 ldi r2 12
-cal .clear_from_screen_buffer
-ldi r1 18
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 71
+// frame 71 - 13 instructions
+ldi r1 12
+ldi r2 14
+cal .clear_from_screen_buffer
+ldi r2 13
+cal .clear_from_screen_buffer
 ldi r1 13
 ldi r2 20
 cal .clear_from_screen_buffer
@@ -861,14 +857,9 @@ ldi r2 19
 cal .push_to_screen_buffer
 ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 12
-ldi r2 14
-cal .clear_from_screen_buffer
-ldi r2 13
-cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 73
+// frame 73 - 13 instructions
 ldi r1 13
 ldi r2 19
 cal .clear_from_screen_buffer
@@ -884,112 +875,111 @@ ldi r2 12
 cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 75
-ldi r1 13
-ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 14
-cal .push_to_screen_buffer
-ldi r1 16
-ldi r2 18
-cal .clear_from_screen_buffer
-ldi r2 17
-cal .clear_from_screen_buffer
-ldi r1 17
-ldi r2 16
-cal .clear_from_screen_buffer
-ldi r1 14
-ldi r2 15
-cal .push_to_screen_buffer
-ldi r1 17
-cal .clear_from_screen_buffer
+// frame 75 - 27 instructions
 ldi r1 12
 ldi r2 14
 cal .push_to_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
 ldi r1 13
+ldi r2 20
+cal .push_to_screen_buffer
 ldi r2 12
 cal .push_to_screen_buffer
+ldi r1 14
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r1 16
+ldi r2 18
+cal .clear_from_screen_buffer
+ldi r2 17
+cal .clear_from_screen_buffer
 ldi r1 17
+ldi r2 16
+cal .clear_from_screen_buffer
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r2 12
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 77
-ldi r1 14
-ldi r2 20
-cal .clear_from_screen_buffer
-ldi r1 16
-cal .clear_from_screen_buffer
-ldi r1 17
-cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 19
-cal .push_to_screen_buffer
-ldi r1 17
-cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 16
-cal .push_to_screen_buffer
-ldi r1 14
-ldi r2 15
-cal .clear_from_screen_buffer
-ldi r1 18
-ldi r2 14
-cal .clear_from_screen_buffer
+// frame 77 - 23 instructions
 ldi r1 12
 ldi r2 12
 cal .push_to_screen_buffer
-cal .frame_inc
-
-// frame 79
+ldi r1 13
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 16
+cal .push_to_screen_buffer
 ldi r1 14
 ldi r2 20
+cal .clear_from_screen_buffer
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r1 16
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r1 17
+cal .clear_from_screen_buffer
+ldi r2 19
+cal .clear_from_screen_buffer
+ldi r1 18
+ldi r2 14
+cal .clear_from_screen_buffer
+cal .frame_inc
+
+// frame 79 - 16 instructions
+ldi r1 13
+ldi r2 12
+cal .clear_from_screen_buffer
+ldi r1 14
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r2 18
 cal .push_to_screen_buffer
 ldi r1 16
-cal .push_to_screen_buffer
-ldi r1 14
-ldi r2 18
+ldi r2 20
 cal .push_to_screen_buffer
 ldi r1 18
 ldi r2 13
 cal .clear_from_screen_buffer
-ldi r1 13
 ldi r2 12
-cal .clear_from_screen_buffer
-ldi r1 18
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 81
-ldi r1 17
-ldi r2 18
-cal .clear_from_screen_buffer
+// frame 81 - 18 instructions
+ldi r1 13
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
+ldi r2 12
+cal .push_to_screen_buffer
 ldi r1 14
 ldi r2 17
 cal .push_to_screen_buffer
 ldi r1 17
+ldi r2 18
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 15
-cal .push_to_screen_buffer
+ldi r2 17
+cal .clear_from_screen_buffer
 ldi r1 18
+ldi r2 15
 cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 13
-cal .push_to_screen_buffer
-ldi r2 12
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 83
-ldi r1 18
-ldi r2 16
-cal .clear_from_screen_buffer
+// frame 83 - 13 instructions
 ldi r1 13
 ldi r2 14
 cal .push_to_screen_buffer
+ldi r1 18
+ldi r2 16
+cal .clear_from_screen_buffer
 ldi r1 19
+ldi r2 14
 cal .clear_from_screen_buffer
 ldi r2 13
 cal .clear_from_screen_buffer
@@ -997,12 +987,7 @@ ldi r2 12
 cal .clear_from_screen_buffer
 cal .frame_inc
 
-// frame 85
-ldi r1 15
-ldi r2 20
-cal .clear_from_screen_buffer
-ldi r1 18
-cal .clear_from_screen_buffer
+// frame 85 - 12 instructions
 ldi r1 14
 ldi r2 19
 cal .push_to_screen_buffer
@@ -1010,61 +995,70 @@ ldi r2 16
 cal .push_to_screen_buffer
 ldi r2 12
 cal .push_to_screen_buffer
-cal .frame_inc
-
-// frame 87
 ldi r1 15
 ldi r2 20
-cal .push_to_screen_buffer
-ldi r1 17
-cal .push_to_screen_buffer
-ldi r1 18
-cal .push_to_screen_buffer
-ldi r2 19
 cal .clear_from_screen_buffer
-ldi r1 15
-ldi r2 17
-cal .push_to_screen_buffer
+ldi r1 18
+cal .clear_from_screen_buffer
+cal .frame_inc
+
+// frame 87 - 15 instructions
 ldi r1 14
 ldi r2 12
 cal .clear_from_screen_buffer
-cal .frame_inc
-
-// frame 89
 ldi r1 15
 ldi r2 20
-cal .clear_from_screen_buffer
+cal .push_to_screen_buffer
+ldi r2 17
+cal .push_to_screen_buffer
 ldi r1 17
-cal .clear_from_screen_buffer
-ldi r1 14
-ldi r2 19
-cal .clear_from_screen_buffer
+ldi r2 20
+cal .push_to_screen_buffer
 ldi r1 18
 cal .push_to_screen_buffer
-ldi r1 15
-ldi r2 17
+ldi r2 19
 cal .clear_from_screen_buffer
-ldi r1 14
-ldi r2 16
-cal .clear_from_screen_buffer
-ldi r1 17
-ldi r2 15
-cal .push_to_screen_buffer
+cal .frame_inc
+
+// frame 89 - 30 instructions
 ldi r1 13
 ldi r2 14
 cal .clear_from_screen_buffer
+ldi r1 14
+ldi r2 19
+cal .clear_from_screen_buffer
+ldi r2 16
+cal .clear_from_screen_buffer
+ldi r1 15
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r2 17
+cal .clear_from_screen_buffer
 ldi r1 17
+ldi r2 20
+cal .clear_from_screen_buffer
+ldi r2 15
+cal .push_to_screen_buffer
+ldi r2 14
+cal .push_to_screen_buffer
+ldi r1 18
+ldi r2 19
+cal .push_to_screen_buffer
+ldi r2 12
 cal .push_to_screen_buffer
 ldi r1 19
+ldi r2 14
 cal .push_to_screen_buffer
 ldi r2 13
 cal .push_to_screen_buffer
-ldi r1 18
-ldi r2 12
-cal .push_to_screen_buffer
 cal .frame_inc
 
-// frame 91
+// frame 91 - 27 instructions
+ldi r1 13
+ldi r2 13
+cal .clear_from_screen_buffer
+ldi r2 12
+cal .clear_from_screen_buffer
 ldi r1 14
 ldi r2 20
 cal .clear_from_screen_buffer
@@ -1072,31 +1066,49 @@ ldi r1 17
 cal .push_to_screen_buffer
 ldi r2 18
 cal .push_to_screen_buffer
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r2 14
+cal .clear_from_screen_buffer
+ldi r2 13
+cal .push_to_screen_buffer
 ldi r1 18
 ldi r2 16
 cal .push_to_screen_buffer
-ldi r1 17
 ldi r2 15
-cal .clear_from_screen_buffer
-ldi r1 18
 cal .push_to_screen_buffer
-ldi r1 17
-ldi r2 14
-cal .clear_from_screen_buffer
-ldi r1 13
-ldi r2 13
-cal .clear_from_screen_buffer
-ldi r1 17
-cal .push_to_screen_buffer
-ldi r1 13
 ldi r2 12
-cal .clear_from_screen_buffer
-ldi r1 18
 cal .clear_from_screen_buffer
 ldi r1 19
 cal .push_to_screen_buffer
 cal .frame_inc
 
+// frame 93 - 15 instructions
+ldi r1 13
+ldi r2 15
+cal .clear_from_screen_buffer
+ldi r1 15
+ldi r2 20
+cal .push_to_screen_buffer
+ldi r1 17
+ldi r2 17
+cal .push_to_screen_buffer
+ldi r2 13
+cal .clear_from_screen_buffer
+ldi r1 18
+cal .push_to_screen_buffer
+ldi r2 12
+cal .push_to_screen_buffer
+cal .frame_inc
+
+// frame 95 - 6 instructions
+ldi r1 14
+ldi r2 17
+cal .clear_from_screen_buffer
+ldi r1 18
+ldi r2 13
+cal .clear_from_screen_buffer
+cal .frame_inc
 
 //-----------------END-----------------
 hlt

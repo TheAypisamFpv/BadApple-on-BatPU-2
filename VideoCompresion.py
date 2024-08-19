@@ -57,6 +57,7 @@ def main():
                 for pixel in row:
                     txt_file.write(str(pixel))
                     txt_file.write(",")
+                txt_file.write(",")
             txt_file.write("\n")
 
     # print the size of the compressed video
@@ -68,3 +69,7 @@ def main():
     print(f"Compression ratio: {og_size/compressed_size:.2f}\n")
 
     print("Video Compresion end.\n")
+
+
+if __name__ == "__main__":
+    main()
