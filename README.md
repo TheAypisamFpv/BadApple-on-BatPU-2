@@ -1,0 +1,1 @@
+Possible Optimisation : Lots of pixels share X or Y positions, allowing consecutive additions to the buffer to reduce repeated instructions.
