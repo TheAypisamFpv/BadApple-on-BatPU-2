@@ -1,3 +1,5 @@
 Possible Optimisation : give feedback
 
-Showcase of how the optimisation works in a few days
+To Do:
+ [] inline pixel optimisation (.push_to_screen_buffer_y, .push_to_screen_buffer_x)
+ [] Showcase of how the optimisation works
