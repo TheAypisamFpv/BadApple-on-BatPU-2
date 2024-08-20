@@ -1,6 +1,8 @@
 // BadApple by TheAypisamFpv
 
-// 48 images
+// V 1.0 : 37f
+// V 1.1 : 39f  pixels sharing compression
+// V 1.2 : 46f  1/4 frames used
 
 // write Bad Apple 
 ldi r15 clear_chars_buffer
@@ -31,7 +33,7 @@ ldi r15 buffer_chars
 str r15 0
 
 
-// r0 none
+// r0 zero register
 // r1 x_1
 // r2 y_1
 // r3 none
@@ -58,6 +60,7 @@ ldi r15 buffer_screen
 
 .loop
 //----------------START----------------
+
 
 // frame 49 - 8 instructions
 ldi r1 23
@@ -1122,15 +1125,17 @@ cal .frame_inc
 
 //-----------------END-----------------
 hlt
-// r0 none
-// r1 x_1
-// r2 y_1
-// r3 none
-// r4 none
-// r5 none
-// r6 none
-// r7 none
-// r8 none
+
+// to try
+// r0 zero register
+// r1 x/y_1
+// r2 y/x_1
+// r3 x/y_2
+// r4 x/y_3
+// r5 x/y_4
+// r6 x/y_5
+// r7 x/y_6
+// r8 x/y_7
 // r9 pixel_x
 // r10 pixel_y
 // r11  frame counter
