@@ -1,8 +1,8 @@
 // BadApple by TheAypisamFpv
 
-// V 1.0 : 37f
-// V 1.1 : 39f  pixels sharing compression
-// V 1.2 : 46f  1/4 frames used
+// V 1.0 : 37 Frames
+// V 1.1 : 39 Frames :  pixels sharing compression
+// V 1.2 : 46 Frames : 1/4 frames used
 
 // write Bad Apple 
 ldi r15 clear_chars_buffer
