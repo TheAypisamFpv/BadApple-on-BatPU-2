@@ -20,7 +20,7 @@ with open(txt_path, "r") as txt_file:
         binary_video.append(frame)
 
 
-def VideoTemporalCompresion(binary_video:list[list[list[int]]]) -> list[list[list[int]]]:
+def VideoDeltaEncoding(binary_video:list[list[list[int]]]) -> list[list[list[int]]]:
     """
     Compresses the video by saving the position of the pixels that change between frames.
     """
@@ -45,12 +45,12 @@ def VideoTemporalCompresion(binary_video:list[list[list[int]]]) -> list[list[lis
 
 def main():
     """
-    Main function to compress the video using temporal compression.
+    Main function to compress the video using Delta encoding.
     """
     
     print("Video Compresion start...")
     # save a compressed version of the video
-    compressed_video = VideoTemporalCompresion(binary_video)
+    compressed_video = VideoDeltaEncoding(binary_video)
     with open(compressed_txt_path, "w") as txt_file:
         for frame in compressed_video:
             for row in frame:

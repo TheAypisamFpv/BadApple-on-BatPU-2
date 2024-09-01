@@ -2,7 +2,7 @@
 
 // V 1.0 : 37 Frames
 // V 1.1 : 39 Frames :  pixels sharing compression
-// V 1.2 : 46 Frames : 1/4 frames used
+// V 1.2 : 46 Frames (up to frame 229) : 1/4 frames used
 
 // write Bad Apple 
 ldi r15 clear_chars_buffer
@@ -1125,24 +1125,6 @@ cal .frame_inc
 
 //-----------------END-----------------
 hlt
-
-// to try
-// r0 zero register
-// r1 x/y_1
-// r2 y/x_1
-// r3 x/y_2
-// r4 x/y_3
-// r5 x/y_4
-// r6 x/y_5
-// r7 x/y_6
-// r8 x/y_7
-// r9 pixel_x
-// r10 pixel_y
-// r11  frame counter
-// r12  show_number
-// r13  clear_pixel
-// r14  draw_pixel
-// r15  buffer_screen
 
 .push_to_screen_buffer
 str r8 r1
