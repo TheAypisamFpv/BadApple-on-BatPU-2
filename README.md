@@ -5,6 +5,10 @@
 [![Watch the video](https://img.youtube.com/vi/3gBZHXqnleU/0.jpg)](https://www.youtube.com/watch?v=3gBZHXqnleU)
 
 
+-----
+
+![BadApple_go_brrrr](https://github.com/TheAypisamFpv/BadApple-on-BatPU-2/blob/main/images/BadApple_BatPU-2.gif)
+
 
 # Introduction
 
