@@ -109,7 +109,7 @@ Reducing the number of instructions from 13 to 8 (+1 for the frame draw incremen
 Exemple of what it could look like :
 
 Registers must be changed :
-```asm
+```
     r0 -> zero register
     r1 -> x_1
     r2 -> y_1
@@ -175,7 +175,7 @@ Adding this to the fact that the functions to push/clear to the buffer are much 
 
 ## Current registers mapping:
 
-```asm
+```
     r0 -> zero register
     r1 -> x_1
     r2 -> y_1
