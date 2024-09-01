@@ -37,7 +37,7 @@ Instead of storing the full frame, i only store the difference between the frame
  <img width=auto height=auto src="https://github.com/TheAypisamFpv/BadApple-on-BatPU-2/blob/main/images/diff_Frame_1_to_2.png" alt="Difference between frame 1 and 2"></a>
 </p>
 
-Then, if the changing pixel is turned on, then `.push_to_screen_buffer` is called, if it is turned off, then `.clear_from_screen_buffer` is called.
+Then, if the changing pixel is turned on, `.push_to_screen_buffer` is called, if it is turned off, then `.clear_from_screen_buffer` is called.
 
 ## Inline Pixel Optimisation
 
