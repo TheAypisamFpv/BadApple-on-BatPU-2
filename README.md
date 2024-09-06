@@ -12,7 +12,7 @@
 
 # Introduction
 
-This project is a port of the [Bad Apple](https://www.youtube.com/watch?v=FtutLA63Cp8) video to the BatPU-2, a 16-bit computer designed by [mattbatwings](https://github.com/mattbatwings) in Minecraft.
+This project is a port of the [Bad Apple](https://www.youtube.com/watch?v=FtutLA63Cp8) video to the BatPU-2, a 8-bit computer designed by [mattbatwings](https://github.com/mattbatwings) in Minecraft.
 
 
 ## Specs
