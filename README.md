@@ -1,4 +1,4 @@
-# Bad Apple on mattbatwings BatPU-2
+# Bad Apple on mattbatwings' BatPU-2
 
 ### Please watch the video for a better understanding of the project !
 
